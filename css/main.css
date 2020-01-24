@@ -1,0 +1,126 @@
+@font-face {
+  font-family: Wisdom Script Regular;
+  font-style: normal;
+  font-weight: normal;
+  src: url ('fonts/wisdom.otf') format('opentype');
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+#top {
+  height: 500px;
+}
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  display: inline-block;;
+}
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+.third-width {
+  width: 28%;
+  display: inline-block;
+  float: left;
+  padding: 30px;
+}
+/***** HEADER *****/
+header {
+  background-color: white;
+  padding: 20px;
+}
+header h1 {
+  text-transform: uppercase;
+  clear: both;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+h1 span {
+  color: #77a466;
+}
+nav {
+    float: right;
+    padding-top: 10px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #77a466;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+/***** TOP SECTION *****/
+#top .full-width {
+  padding: 15px;
+}
+#top img#green-beans {
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+}
+#top h2 {
+  color: #77a466;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+#top p {
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** BOTTOM SECTION *****/
+#bottom .full-width#gray-box {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+#bottom .third-width#our-awesome-reviews {
+  border-right: 1px solid #dedbdc;
+  border-left: 1px solid #dedbdc;
+}
+#bottom h3 {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#bottom ul {
+  list-style: none;
+  padding: 0;
+}
+#bottom ul li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 10px 0;
+}
+#bottom #review {
+  font-size: 16px;
+  line-height: 21px;
+}
+#bottom #address {
+  font-size:16px;
+  line-height: 24px;
+}
+
+/***** FOOTER *****/
+#footer h2 {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#footer span {
+  font-family: 'Wisdom Script Regular', cursive;
+  text-transform: lowercase;
+  font-size: 16px;
+  color: #77a466;
+}
